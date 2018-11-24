@@ -4,27 +4,28 @@
         <meta charset="utf-8">
         <title>An Interesting Website</title>
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Alegreya+Sans|Averia+Sans+Libre|Alegreya+Sans+SC" rel="stylesheet"> <!-- added fonts for visual appeal --> 
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Alegreya+Sans|Averia+Sans+Libre|Alegreya+Sans+SC" rel="stylesheet"> 
+          <!-- added fonts for visual appeal --> 
     </head>
     
     <body>
         <div class="container"> <!-- navigation bar -->
-            <nav class="nav nav-pills nav-fill"> <!-- .nav-pills .nav-link.active, .nav-pills .show > .nav-link class in css to change nav item color -->
-                <a class="nav-item nav-link active" href="https://preview.c9users.io/andrea841/csp5-jia-a/HTML_Project/index.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io">Home</a> <!-- class="active" shows which tab user is on --> 
-                <a class="nav-item nav-link" href="https://preview.c9users.io/andrea841/csp5-jia-a/HTML_Project/Jia_AboutMe.html?_c9_id=livepreview3&_c9_host=https://ide.c9.io">About Me</a>
-                <a class="nav-item nav-link" href="https://preview.c9users.io/andrea841/csp5-jia-a/HTML_Project/Jia_Resume.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io">Resume</a>
-                <a class="nav-item nav-link" href="https://preview.c9users.io/andrea841/csp5-jia-a/HTML_Project/Jia_Projects.html?_c9_id=livepreview2&_c9_host=https://ide.c9.io">Projects</a>
-                <a class="nav-item nav-link" href="https://preview.c9users.io/andrea841/csp5-jia-a/HTML_Project/Jia_ContactMe.html?_c9_id=livepreview3&_c9_host=https://ide.c9.io">Contact Me</a>
+            <nav class="nav nav-pills nav-fill"> <!-- ^F .nav-pills .nav-link.active, .nav-pills .show > .nav-link class in css to change nav item color -->
+                <a class="nav-item nav-link active" href="index.html">Home</a> <!-- class="active" shows which tab user is on --> 
+                <a class="nav-item nav-link" href="Jia_AboutMe.html">About Me</a>
+                <a class="nav-item nav-link" href="Jia_Resume.html">Resume</a>
+                <a class="nav-item nav-link" href="Jia_Projects.html">Projects</a>
+                <a class="nav-item nav-link" href="Jia_ContactMe.html">Contact Me</a>
             </nav> 
         </div>
         
         
         
-        <div class="container"> <!-- jumbotron area: add background picture later --> 
+        <div class="container"> <!-- slides in jumbotron: https://getbootstrap.com/docs/4.0/components/carousel/ --> 
            <div class="jellyjumbotron">
              <h1 class="h1">Andrea's Engineering Portfolio</h1>
              <h5 class="h5">Keep reading about me in the link below :)</h5>
-            <a class="jellylink" href="https://preview.c9users.io/andrea841/csp5-jia-a/HTML_Project/Jia_AboutMe.html?_c9_id=livepreview3&_c9_host=https://ide.c9.io">Continue reading...</a>
+            <a class="jellylink" href="Jia_AboutMe.html">Continue reading...</a>
           </div>
         </div>
         
@@ -81,18 +82,24 @@
         </div> <!-- container divs -->
         </div>
         
-        <footer class="container"> <!-- footer contains info for social networks --> <!-- remember to add finished footer to all sections -->
+        <footer class="container"> <!-- footer contains info for social networks --> 
             <div class="jumbotron">
               <div class="row col-sm-12">
+                <div>    
                   <a href="mailto:silverowls0129@gmail.com"> <!-- mail --> 
                     <img src="Images/Mail Bubble.png"  />
-                  </a> <!-- image link that directs to social links -->
+                  </a> 
+                </div>
+                <div>
                   <a class="" href="https://www.linkedin.com/" target="_blank"> <!-- linkedin -->
                     <img src="Images/Linkedin Bubble.png"  />
                   </a> 
-                    <a class="float-right" href="https://www.dublin.k12.ca.us/dhs" target="_blank"> <!-- dhs -->
-                     <img src="Images/DHS Bubble.png" />
-                    </a>
+                </div>
+                <div>
+                  <a class="float-right" href="https://www.dublin.k12.ca.us/dhs" target="_blank"> <!-- dhs -->
+                    <img src="Images/DHS Bubble.png" />
+                  </a>
+                </div>
               </div>
             </div>
         </footer>
