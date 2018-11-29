@@ -9061,6 +9061,13 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: "Alegreya Sans SC", "Alegreya Sans";
 }
 
+.fjumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(10, 40, 150, 0.4));
+  border-radius: 0.3rem;
+}
+
 .card-img-right {  /* gives space for images in card */
   margin: 15px auto;
   border-radius: 0.2em;
@@ -9069,6 +9076,33 @@ a.text-dark:hover, a.text-dark:focus {
 .float-center {
   text-align: center;
   align-items: center;
+}
+
+.abtmepic {
+  margin: 0.25em;
+}
+
+.abtmecard {
+  margin: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.abtme {
+  max-width: 64rem;
+  min-width: 10rem;
+  margin-left: 20px;
+  /* calc(0.25rem - 1px) can use this to do simple math */ 
+}
+
+.abtme2 {
+  margin: auto 1em;
+}
+
+.abtmecontainer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

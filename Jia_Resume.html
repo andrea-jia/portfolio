@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Alegreya+Sans|Averia+Sans+Libre|Alegreya+Sans+SC" rel="stylesheet"> <!-- added fonts for visual appeal --> 
     </head>
     <body>
-        <div class="container"> <!-- navigation bar -->
+        <div> <!-- navigation bar -->
             <nav class="nav nav-pills nav-fill">
                 <a class="nav-item nav-link" href="index.html">Home</a>  
                 <a class="nav-item nav-link" href="Jia_AboutMe.html">About Me</a>
@@ -17,17 +17,17 @@
             </nav> 
         </div>
 
-        <div class="container"> <!-- jumbotron -->
+        <div> <!-- jumbotron -->
             <div class="minijellyjumbotron justify-content-center">
                 <h1>Resume</h1>
                 <h2>Andrea Jia</h2>
             </div>
         </div>
         
-        <div class="container">  <!-- link on how to collapse items https://getbootstrap.com/docs/4.0/components/collapse/ --> 
+        <div class="container">   
             <div class="card">    
                 <p class="card-body">Dublin, CA 94568<br>
-                    silverowls0129@gmail.com<br>
+                    <a href="mailto:silverowls0129@gmail.com">silverowls0129@gmail.com</a><br>
                 </p>
             </div>
             <div class="card">
@@ -45,7 +45,8 @@
                        <h4>Skills</h4>
                         <strong>Language Proficiency:</strong><br>
                         - Proficiency in Mandarin at the AP level<br>
-                        - Proficiency in Spanish at Intermediate Low
+                        - Proficiency in Spanish at Intermediate Low<br>
+                        <strong>Other Skills:</strong><br>
                         - Artistic ability in sketch
                     </p>
                 </div>
@@ -85,25 +86,36 @@
                 <div class="card-body">
                     <p>
                        <h4>Awards</h4>
-                        - Honor Roll throughout middle school 
+                        - Academic Excellence Award from maintaining 4.0 GPA throughout middle school<br> 
+                        - Student of the Year in 8th grade math
+                        - Highest individual score in division: Math Olympiad 2016-2017
                     </p>
                 </div>
             </div>
         </div>
             
-        <footer class="container"> <!-- footer contains info for social networks --> 
-            <div class="jumbotron">
-              <div class="row col-sm-12">
-                  <a href="mailto:silverowls0129@gmail.com"> <!-- mail --> 
-                    <img src="Images/Mail Bubble.png"  />
-                  </a> <!-- image link that directs to social links -->
-                  <a class="" href="https://www.linkedin.com/" target="_blank"> <!-- linkedin -->
-                    <img src="Images/Linkedin Bubble.png"  />
-                  </a> 
-                    <a class="float-right" href="https://www.dublin.k12.ca.us/dhs" target="_blank"> <!-- dhs -->
-                     <img src="Images/DHS Bubble.png" />
-                    </a>
-              </div>
+        <footer class=""> <!-- footer contains info for social networks --> 
+            <div class="fjumbotron">
+                <div class="row">
+                    <div class="col-2">
+                        <!-- spacing div --> 
+                    </div>
+                    <div class="col-3"> 
+                        <a href="mailto:silverowls0129@gmail.com"> <!-- mail --> 
+                            <img src="Images/Mail Bubble.png"  />
+                        </a> <!-- image link that directs to social links -->
+                    </div>
+                    <div class="col-5"> 
+                        <a href="https://www.linkedin.com/" target="_blank"> <!-- linkedin -->
+                            <img src="Images/Linkedin Bubble.png"  />
+                        </a> 
+                    </div>
+                    <div class="col-1">
+                        <a href="https://www.dublin.k12.ca.us/dhs" target="_blank" class="float-right"> <!-- dhs -->
+                            <img src="Images/DHS Bubble.png" />
+                        </a>
+                    </div>
+                </div>
             </div>
         </footer>
         
