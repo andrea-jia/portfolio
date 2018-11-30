@@ -3943,6 +3943,7 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   text-align: center;
+  border-color: rgb(120, 160, 230);
 }
 
 .nav-justified .nav-item {
@@ -9064,7 +9065,7 @@ a.text-dark:hover, a.text-dark:focus {
 .fjumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(10, 40, 150, 0.4));
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(130, 180, 240, 0.4));
   border-radius: 0.3rem;
 }
 
@@ -9087,9 +9088,8 @@ a.text-dark:hover, a.text-dark:focus {
   width: 349px;
 }
 
-.abtme {
-  max-width: 64rem;
-  min-width: 10rem;
+.abtmewrap {
+  max-width: 56rem;
   margin-left: 1em;
   /* calc(0.25rem - 1px) can use this to do simple math */ 
 }
@@ -9108,11 +9108,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 .contactmetxt {
   margin: auto 10rem;
+  width: 18rem;
 }
 
 .contactmepic {
   height: 18rem;
   width: 12rem;
+}
+
+.indexpic {
+  width: 12.5rem;
+  height: 12.5rem;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

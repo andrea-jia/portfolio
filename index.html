@@ -6,6 +6,7 @@
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Alegreya+Sans|Averia+Sans+Libre|Alegreya+Sans+SC" rel="stylesheet"> 
           <!-- added fonts for visual appeal --> 
+        <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon"> <!-- jellyfish favicon --> 
     </head>
     
     <body>
@@ -26,55 +27,58 @@
         <a class="jellylink" href="Jia_AboutMe.html">Continue reading...</a>
       </div>
         
-        
       <div class="container">
-          <div class="row"> <!-- row 1; containing 2 cards -->
-            <div class="col-sm-6 card flex-sm-row"> <!-- make entire card a button later --> 
-              <div class="card-body">
-                <strong><h5>In Class Projects</h5></strong>
-                <h2>Scratch Game</h2>
-                <h4>More information</h4>
-                <a href="Jia_Projects.html#ScratchProject" title="Read more about my Scratch Project">Continue reading...</a>
-              </div>
-              <img class="card-img-right" src="Images/scratchcat.jpeg" height=200px width=200px />
-            </div> <!-- end of card 1 -->  
-            <div class="col-sm-6 card flex-sm-row"> <!-- card #2 --> 
-              <div class="card-body">
-                <strong><h5>In Class Projects</h5></strong>
-                <h2>MIT App Inventor</h2>
-                <h4>More information</h4>
-                <a href="Jia_Projects.html#MITApp" title="Read more about my MIT App Inventor Project">Continue reading...</a>
-              </div>                  
-              <img class="card-img-right" src="Images/mit.jpeg" width=200px height=200px />
-            </div>
-          </div> <!-- end of row 1 -->
-          
-        <!-- temporarily commented out project cards for purpose of class project --> 
-        <!-- 
-          <div class="row">
-              <div class="col-sm-6 card flex-sm-row">
-                <div class="card-body">
-                  <strong><h5>Arduino</h5></strong>
-                  <h2>Project</h2>
-                  <h4>More information</h4>
-                  <a href="#">Continue reading...</a>
+          <div class="d-flex justify-content-center"> <!-- flex row to center items --> 
+            <div class="card-deck">
+              <div class="row"> <!-- row 1; containing 2 cards -->
+                <div class="col-sm-6 card flex-sm-row"> <!-- make entire card a button later --> 
+                  <div class="card-body">
+                    <strong><h5>In Class Projects</h5></strong>
+                    <h2>Scratch Game</h2>
+                    <h4>More information</h4>
+                    <a href="Jia_Projects.html#ScratchProject" title="Read more about my Scratch Project">Continue reading...</a>
+                  </div>
+                  <img class="card-img-right indexpic" src="Images/scratchcat.jpeg" height=200px width=200px />
+                </div> <!-- end of card 1 -->  
+                <div class="col-sm-6 card flex-sm-row"> <!-- card #2 --> 
+                  <div class="card-body">
+                    <strong><h5>In Class Projects</h5></strong>
+                    <h2>MIT App Inventor</h2>
+                    <h4>More information</h4>
+                    <a href="Jia_Projects.html#MITApp" title="Read more about my MIT App Inventor Project">Continue reading...</a>
+                  </div>                  
+                  <img class="card-img-right indexpic" src="Images/mit.jpeg" width=200px height=200px />
                 </div>
-                <img class="card-img-right" src="Images/arduino.jpeg" width=200px height=200px />
-              </div>
+              </div> <!-- end of row 1 -->
               
-              <div class="col-sm-6 card flex-sm-row"> 
-               <div class="card-body">
-                  <strong><h5>Other Project</h5></strong>
-                  <h2>Project</h2>
-                  <h4>More information</h4>
-                  <a href="#">Continue reading...</a>
-               </div>
-               <img class="card-img-right" src="https://infinitespider.com/wp-content/uploads/2016/07/bmore-nat-aquarium-2-683x1024.jpg" width=200px height=200px />
-              </div>
-          </div>  row end  
-        --> <!-- end of commennt --> 
-        
-      </div> <!-- end of container --> 
+            <!-- temporarily commented out project cards for purpose of class project --> 
+            <!-- 
+              <div class="row">
+                  <div class="col-sm-6 card flex-sm-row">
+                    <div class="card-body">
+                      <strong><h5>Arduino</h5></strong>
+                      <h2>Project</h2>
+                      <h4>More information</h4>
+                      <a href="#">Continue reading...</a>
+                    </div>
+                    <img class="card-img-right" src="Images/arduino.jpeg" width=200px height=200px />
+                  </div>
+                  
+                  <div class="col-sm-6 card flex-sm-row"> 
+                   <div class="card-body">
+                      <strong><h5>Other Project</h5></strong>
+                      <h2>Project</h2>
+                      <h4>More information</h4>
+                      <a href="#">Continue reading...</a>
+                   </div>
+                   <img class="card-img-right" src="https://infinitespider.com/wp-content/uploads/2016/07/bmore-nat-aquarium-2-683x1024.jpg" width=200px height=200px />
+                  </div>
+              </div>  row end  
+            --> <!-- end of commennt --> 
+            
+          </div> <!-- end of card deck --> 
+        </div> <!-- end of flex row --> 
+      </div>
 
         
       <footer class=""> <!-- footer contains info for social networks --> 
