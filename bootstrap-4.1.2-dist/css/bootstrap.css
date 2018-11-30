@@ -9084,12 +9084,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .abtmecard {
   margin: 0.5rem 0.5rem 0.5rem 1rem;
+  width: 349px;
 }
 
 .abtme {
   max-width: 64rem;
   min-width: 10rem;
-  margin-left: 20px;
+  margin-left: 1em;
   /* calc(0.25rem - 1px) can use this to do simple math */ 
 }
 
@@ -9105,4 +9106,9 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: auto;
 }
 
+.contactmetxt {
+  margin: auto 10rem;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
+  
