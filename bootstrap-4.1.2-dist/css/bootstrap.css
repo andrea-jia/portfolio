@@ -9080,18 +9080,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .abtmepic {
-  margin: 0.25em;
-}
-
-.abtmecard {
   margin-left: 2.5rem;
-  width: 349px;
 }
 
 .abtmewrap {
   max-width: 56rem;
   margin-left: 2.5em;
-  /* calc(0.25rem - 1px) can use this to do simple math */ 
 }
 
 .abtme2 {
