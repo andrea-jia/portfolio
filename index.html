@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>An Interesting Website</title>
+        <title>Andrea's Engineering Portfolio</title>
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Alegreya+Sans|Averia+Sans+Libre|Alegreya+Sans+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Alegreya+Sans|Averia+Sans+Libre|Alegreya+Sans+SC|Julius+Sans+One" rel="stylesheet">
         <!-- ^^^^added fonts for visual appeal --> 
         <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon"> <!-- jellyfish favicon --> 
     </head>
@@ -26,8 +26,9 @@
         <h5 class="h5">Keep reading about me in the link below :)</h5>
         <a class="jellylink" href="Jia_AboutMe.html">Continue reading...</a>
       </div>
-        
-      <div class="container">
+      
+      
+      <div class="container"> <!-- first row of cards: two containers made because the addition of a second row changed alignment -->
           <div class="d-flex justify-content-center"> <!-- flex row to center items --> 
             <div class="card-deck">
               <div class="row"> <!-- row 1; containing 2 cards -->
@@ -50,35 +51,29 @@
                   <img class="card-img-right indexpic" src="Images/mit.jpeg" width=200px height=200px />
                 </div>
               </div> <!-- end of row 1 -->
-              
-            <!-- temporarily commented out project cards for purpose of class project --> 
-            <!-- 
-              <div class="row">
-                  <div class="col-sm-6 card flex-sm-row">
-                    <div class="card-body">
-                      <strong><h5>Arduino</h5></strong>
-                      <h2>Project</h2>
-                      <h4>More information</h4>
-                      <a href="#">Continue reading...</a>
-                    </div>
-                    <img class="card-img-right" src="Images/arduino.jpeg" width=200px height=200px />
-                  </div>
-                  
-                  <div class="col-sm-6 card flex-sm-row"> 
-                   <div class="card-body">
-                      <strong><h5>Other Project</h5></strong>
-                      <h2>Project</h2>
-                      <h4>More information</h4>
-                      <a href="#">Continue reading...</a>
-                   </div>
-                   <img class="card-img-right" src="https://infinitespider.com/wp-content/uploads/2016/07/bmore-nat-aquarium-2-683x1024.jpg" width=200px height=200px />
-                  </div>
-              </div>  row end  
-            --> <!-- end of commennt --> 
-            
           </div> <!-- end of card deck --> 
         </div> <!-- end of flex row --> 
       </div> <!-- end of container --> 
+      
+      
+      <div class="container">
+          <div class="d-flex justify-content-center"> <!-- flex row to center items --> 
+            <div class="card-deck">
+              <div class="row justify-content-center"> <!-- row 1; containing 2 cards -->
+                <div class="col-sm-6 card pythonindexcard flex-sm-row"> <!-- make entire card a button later --> 
+                  <div class="card-body">
+                    <strong><h5>In Class Projects</h5></strong>
+                    <h2>Python Image Manipulation</h2>
+                    <h4>More information</h4>
+                    <a href="Jia_Projects.html#ImageProject" title="Read more about my Image Manipulation Project">Continue reading...</a>
+                  </div>
+                  <img class="card-img-right indexpic" src="Images/pythonlogo.png" height=200px width=200px />
+                </div> <!-- end of card 1 -->  
+              </div> <!-- end of row 1 -->
+            </div> <!-- end of card deck --> 
+          </div> <!-- end of flex row --> 
+      </div> <!-- end of container --> 
+      
 
         
       <footer> <!-- footer contains info for social networks --> 

@@ -9059,18 +9059,18 @@ a.text-dark:hover, a.text-dark:focus {
   color: white;
   height: 18rem;
   text-align: center;
-  font-family: "Alegreya Sans SC", "Alegreya Sans";
+  font-family: "Julius Sans One", "Alegreya Sans SC";
 }
 
 .fjumbotron {
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background: linear-gradient(rgba(255, 255, 255, 1), rgba(130, 180, 240, 0.4));
   border-radius: 0.3rem;
 }
 
 .card-img-right {  /* gives space for images in card */
-  margin: 15px auto;
+  margin: 15px 15px; /* 15px auto */
   border-radius: 0.2em;
 }
 
@@ -9079,6 +9079,7 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
 }
 
+/*
 .abtmepic {
   margin-left: 2.5rem;
 }
@@ -9099,6 +9100,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: auto;
   margin-left: auto;
 }
+*/
 
 .contactmetxt {
   margin: auto 10rem;
@@ -9113,6 +9115,10 @@ a.text-dark:hover, a.text-dark:focus {
 .indexpic {
   width: 12.5rem;
   height: 12.5rem;
+}
+
+.pythonindexcard {
+  width: 1000px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
